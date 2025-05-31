@@ -6,7 +6,7 @@ const studentAccounts = {
     id: "20230123@school.edu",
     pw: "gildong123!"
   },
-  "20230124_김영희": {
+  "20230124_김영오": {
     id: "20230124@school.edu",
     pw: "younghee456!"
   },
