@@ -1,0 +1,71 @@
+/* static/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0ffe0; /* 연한 연두색 배경 */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.2); /* 초록빛 그림자 */
+}
+
+h1 {
+  text-align: center;
+  color: #2e8b57; /* 진한 초록 */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #006400; /* 어두운 초록 */
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #9acd32; /* 노랑-초록 테두리 */
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #32cd32; /* 연한 초록 */
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #9acd32; /* 노랑-초록 */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6b8e23; /* 어두운 노랑-초록 */
+}
+
+#result {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #e6ffb3; /* 연한 노란 배경 */
+  border: 1px solid #adff2f;
+  border-radius: 10px;
+  color: #2e8b57;
+  font-weight: bold;
+  display: none; /* 기본은 안 보이게 */
+}
